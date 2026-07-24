@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maybel helps hotels and convenience stores manage alcohol sales.">
+    <title>Maybel Inc.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap"
+        rel="stylesheet"
+    >
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            min-height: 100%;
+        }
+
+        body {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            padding: 50px 20px 30px;
+            overflow-x: hidden;
+            background-color: #5551b8;
+            color: #ffffff;
+            font-family: "League Gothic", sans-serif;
+            text-align: center;
+        }
+
+        .content {
+            width: 100%;
+            max-width: 1100px;
+        }
+
+        h1 {
+            margin: 0;
+            color: #ffb500;
+            font-size: 7.59rem;
+            font-weight: 400;
+            line-height: 1;
+        }
+
+        p {
+            margin: 10px 0 0;
+            font-size: 2.85rem;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            font-size: 0.91rem;
+            line-height: 2.01;
+        }
+
+        .contact-info a,
+        .contact-info .value {
+            color: #ffb500;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover,
+        .contact-info a:focus {
+            text-decoration: underline;
+        }
+
+        .address {
+            margin-top: 10px;
+            font-size: 0.77rem;
+            line-height: 2.5;
+        }
+
+        .address-header {
+            margin-top: 20px;
+            color: #ffb500;
+            font-size: 3.08rem;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding-top: 30px;
+            }
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+            }
+
+            .contact-info {
+                font-size: 0.7rem;
+            }
+
+            .address {
+                font-size: 0.6rem;
+                line-height: 1.5;
+            }
+
+            .address-header {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="content">
+        <h1>Maybel</h1>
+
+        <p>Helping Hotels &amp; Convenience Stores Manage Alcohol Sales</p>
+
+        <section class="contact-info" aria-label="Contact information">
+            <p>
+                <span class="label">Email: </span>
+                <a href="mailto:Hi@Maybel.com">Hi@Maybel.com</a>
+            </p>
+
+            <p>
+                <span class="label">Phone: </span>
+                <a href="tel:+18888841971">888-884-1971</a>
+            </p>
+        </section>
+
+        <section class="address" aria-label="Office addresses">
+            <div class="address-header">Canada</div>
+            <p>
+                260 Adelaide Street East, Suite 145<br>
+                Toronto, Ontario, Canada M5A 1N1
+            </p>
+
+            <div class="address-header">America</div>
+            <p>
+                7190 West Sunset Boulevard, Unit 82D<br>
+                Los Angeles, California, United States 90046
+            </p>
+        </section>
+    </main>
+</body>
+</html>
